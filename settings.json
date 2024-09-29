@@ -1,0 +1,31 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.labelFormat": "medium",
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "300",
+  "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontWeight": "300",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "totalTypeScript.hiddenTips": ["passing-generics-to-types", "non-null-expression"],
+  "prettier.printWidth": 90,
+  "redhat.telemetry.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "One Dark Pro",
+
+  //error
+  "errorLens.enabled": true,
+  "errorLens.padding": "0",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.removeLinebreaks": false,
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.fontWeight": "500",
+  "errorLens.fontFamily": "JetBrains Mono"
+}
