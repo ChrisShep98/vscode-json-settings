@@ -15,37 +15,46 @@
   "prisma.showPrismaDataPlatformNotification": false,
   "editor.accessibilitySupport": "off",
   "terminal.integrated.fontSize": 14,
-  "workbench.colorTheme": "Palenight Theme",
+  "workbench.colorTheme": "GitHub Dark",
   "editor.lineHeight": 1.3, // what I normally use
   // "editor.lineHeight": 1.7,
   // Custom colors below
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#FFF"
-    //   "gitDecoration.modifiedResourceForeground": "#f8f5a7",
-    //   "gitDecoration.stageModifiedResourceForeground": "#b8fcb1",
-    //   "editor.wordHighlightBorder": "#fff",
-    //   "activityBar.background": "#121821",
-    //   "sideBar.background": "#0d1118",
-    //   "sideBarSectionHeader.background": "#0d1118",
-    //   "editor.background": "#0d1118",
-    //   "editorGroupHeader.tabsBackground": "#0d1118",
-    //   "tab.activeBackground": "#0d1118",
-    //   "tab.activeForeground": "#fff",
-    //   "tab.inactiveBackground": "#0d1118",
-    //   "statusBar.background": "#0d1118",
-    //   "terminal.background": "#0d1118",
-    //   "titleBar.activeBackground": "#0d1118",
-    //   "titleBar.inactiveBackground": "#0d1118",
-    //   "panel.background": "#0d1118",
-    //   "terminal.foreground": "#fff"
-  }
-  // "editor.tokenColorCustomizations": {
+    "editorCursor.foreground": "#FFF",
+    // "gitDecoration.modifiedResourceForeground": "#f8f5a7",
+    // "gitDecoration.stageModifiedResourceForeground": "#b8fcb1",
+    // "editor.wordHighlightBorder": "#fff",
+    // "activityBar.background": "#121821",
+    // "sideBar.background": "#0d1118",
+    // "sideBarSectionHeader.background": "#0d1118",
+    // "editor.background": "#0d1118",
+    // "editorGroupHeader.tabsBackground": "#0d1118",
+    // "tab.activeBackground": "#0d1118",
+    // "tab.activeForeground": "#fff",
+    // "tab.inactiveBackground": "#0d1118",
+    // "statusBar.background": "#0d1118",
+    // "terminal.background": "#0d1118",
+    // "titleBar.activeBackground": "#0d1118",
+    // "titleBar.inactiveBackground": "#0d1118",
+    // "panel.background": "#0d1118",
+    // "terminal.foreground": "#fff"
+  },
+  "editor.tokenColorCustomizations": {
   // "numbers": "#2247EB",
   // "comments": "#6D929C",
   // "functions": "#1352b0",
-  // "strings": "#FF0000",
+  // "strings": "#ffd866", // yellow strings
+  "strings": "#4fab50",
   // "variables": "#fff",
   // "keywords": "#6f42c1",
   // "types": "#FF0000"
-  // },
+  "textMateRules": [
+    {
+        "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+        "settings": {
+            "foreground": "#fff",
+        }
+    }
+]
+  },
 }
