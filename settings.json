@@ -20,7 +20,7 @@
   // Custom colors below
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#FFF",
-    "[Oceanic Next*]":{
+    "[Oceanic Next*]": {
       "tab.inactiveBackground": "#1c2b34",
       "statusBar.background": "#1c2b34",
       "toolbar.activeBackground": "#1c2b34",
@@ -28,8 +28,8 @@
       "sideBarSectionHeader.background": "#1c2b34",
       "list.hoverForeground": "#FFF",
       "list.hoverBackground": "#1c2b34",
-      "activityBar.background": "#1c2b34",
-    },
+      "activityBar.background": "#1c2b34"
+    }
   },
   "editor.tokenColorCustomizations": {
     "strings": "#ffd866", // yellow strings
@@ -55,5 +55,5 @@
     "markdown": false,
     "scminput": false
   },
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": false
 }
