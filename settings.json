@@ -8,7 +8,7 @@
   "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
   "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
 
   "eslint.enable": false,
   "prettier.singleQuote": true,
@@ -20,16 +20,23 @@
   // Custom colors below
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#FFF",
-    "[Oceanic Next*]": {
-      "tab.inactiveBackground": "#1c2b34",
-      "statusBar.background": "#1c2b34",
-      "toolbar.activeBackground": "#1c2b34",
-      "sideBar.background": "#1c2b34",
-      "sideBarSectionHeader.background": "#1c2b34",
-      "list.hoverForeground": "#FFF",
-      "list.hoverBackground": "#1c2b34",
-      "activityBar.background": "#1c2b34"
-    }
+    "gitDecoration.modifiedResourceForeground": "#f8f5a7",
+    "gitDecoration.stageModifiedResourceForeground": "#b8fcb1",
+    "editor.wordHighlightBorder": "#fff",
+    "activityBar.background": "#121821",
+    "sideBar.background": "#0c1017",
+    "sideBarSectionHeader.background": "#0c1017",
+    "editor.background": "#0c1017",
+    "editorGroupHeader.tabsBackground": "#0c1017",
+    "tab.activeBackground": "#0c1017",
+    "tab.activeForeground": "#fff",
+    "tab.inactiveBackground": "#0c1017",
+    "statusBar.background": "#0c1017",
+    "terminal.background": "#0c1017",
+    "titleBar.activeBackground": "#0c1017",
+    "titleBar.inactiveBackground": "#0c1017",
+    "panel.background": "#0c1017",
+    "terminal.foreground": "#fff"
   },
   "editor.tokenColorCustomizations": {
     "strings": "#ffd866", // yellow strings
