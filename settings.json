@@ -18,14 +18,16 @@
   "terminal.integrated.fontSize": 14,
   "editor.lineHeight": 1.3, // what I normally use
   // Custom colors below
+  // #171920 lighter dark
+  // #03070f darker dark
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#FFF",
-    "gitDecoration.modifiedResourceForeground": "#f8f5a7",
-    "gitDecoration.stageModifiedResourceForeground": "#b8fcb1",
+    // "gitDecoration.modifiedResourceForeground": "#f8f5a7",
+    // "gitDecoration.stageModifiedResourceForeground": "#b8fcb1",
     "editor.wordHighlightBorder": "#fff",
-    "activityBar.background": "#121821",
-    "sideBar.background": "#0c1017",
-    "sideBarSectionHeader.background": "#0c1017",
+    "activityBar.background": "#03070f",
+    "sideBar.background": "#03070f",
+    "sideBarSectionHeader.background": "#03070f",
     "editor.background": "#0c1017",
     "editorGroupHeader.tabsBackground": "#0c1017",
     "tab.activeBackground": "#0c1017",
