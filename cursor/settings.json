@@ -103,9 +103,5 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "editor.minimap.enabled": false,
-  "cursor.cpp.disabledLanguages": [
-    "plaintext",
-    "markdown",
-    "scminput"
-  ],
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"]
 }
